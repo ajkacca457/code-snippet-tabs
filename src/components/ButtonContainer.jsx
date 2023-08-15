@@ -2,7 +2,7 @@ import React from 'react';
 
 const ButtonContainer = () => {
     return (
-        <div>ButtonContainer</div>
+        <div className='col-span-2'>ButtonContainer</div>
     );
 };
 
