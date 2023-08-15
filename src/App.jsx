@@ -1,6 +1,8 @@
-import ButtonContainer from "./components/ButtonContainer";
-import InfoContainer from "./components/InfoContainer";
+import ButtonContainer from './components/ButtonContainer';
+import InfoContainer from './components/InfoContainer';
+
 function App() {
+
   return (
     <>
       <ButtonContainer />
