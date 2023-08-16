@@ -6,9 +6,9 @@ const ButtonContainer = (props) => {
     return (
         <div className='col-span-2'>
             {companyNames.map((company, index) => {
-                const isActive = index === topIndex ? 'bg-orange-500' : 'bg-orange-300';
+                const isActive = index === topIndex ? 'bg-purple-500' : 'bg-purple-300';
                 return (
-                    <button className={`block ${isActive} w-full rounded h-fit my-2 py-2 px-4`} key={index} onClick={() => updateIndex(index)}>{company}</button>
+                    <button className={`block ${isActive} text-white w-full rounded h-fit my-2 py-2 px-4`} key={index} onClick={() => updateIndex(index)}>{company}</button>
                 );
             })}
         </div>
