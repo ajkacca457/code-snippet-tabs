@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className='max-w-[1200px] bg-slate-300 p-8 mx-auto grid grid-cols-8 gap-x-[20px]'>
-      <h1 className='col-span-full min-h-[50px] text-center'>Tabs Content</h1>
+      <h1 className='col-span-full text-center bg-blue-800 text-white text-2xl py-2'>Tabs Content</h1>
       <ButtonContainer jobData={jobData} updateIndex={updateIndex} index={index} />
       <InfoContainer {...jobData} index={index} />
     </div>
